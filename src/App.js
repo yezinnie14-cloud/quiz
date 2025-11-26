@@ -28,8 +28,9 @@ const App = () => {
   }
   return (
     <div className='app'>
-      <div className="mainline">
-      <h1>FRAGRANCE<br/>MASTER QUIZ</h1>
+      <div className={`mainline ${category && !finish ? "quiz-mode" : ""} ${finish ? "no-border":""}`}>
+     { ! category && !finish && ( <h1>FRAGRANCE<br/>MASTER QUIZ</h1>
+     )}
       
       {
       !category && !finish &&
@@ -45,7 +46,7 @@ const App = () => {
                             score={score}
                             />
      }
-     <p>APP SCORE : {score}</p>
+     {finish && <div className="score-box"> {score}<p>점</p></div>}
      {
       finish && <Results onReStart={handleReStart}/>
      }

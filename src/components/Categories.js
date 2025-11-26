@@ -1,19 +1,31 @@
-const Categories = ({categories, onSelect}) => {
+import "./Categories.css";
+
+const Categories = ({ categories, onSelect }) => {
   return (
     <div id="categories">
-        <h2>나의 향 감각은 어느정도일까?</h2>
-        <ul>
-            {
-            categories.map((item,idx)=>{
-                return(
-                     <li key={idx}
-                        onClick={()=>{onSelect(item)}}
-                     > {item}</li>
-                )
-            })}
-        </ul>
-        </div>
-  )
-}
+      <img src="/images/perfumeimage.png" alt="향수 사진" />
 
-export default Categories
+      <h2 className="scent-level">
+        <span className="left">나의 향 감각은</span>
+        <span className="right">어느 정도일까?</span>
+      </h2>
+
+      <ul>
+        {categories.map((item, idx) => (
+          <li
+            key={idx}
+            onClick={() => {
+              onSelect(item);
+            }}
+          >
+            {item}
+          </li>
+        ))}
+      </ul>
+
+      <button>향수 더보기</button>
+    </div>
+  );
+};
+
+export default Categories;

@@ -9,6 +9,7 @@
     {
       "id": 1,
       "category": "향수 기본 지식",
+      "image": "/images/flower02.jpg",
       "question": "Q1. EDT의 정확한 의미는?",
       "choices": ["Eau de Toilette", "Eau de Travel", "Eau de Trend", "Eau de Time"],
       "correct": 1
@@ -17,6 +18,7 @@
       "id": 2,
       "category": "향수 기본 지식",
       "question": "Q2. 가장 지속력이 긴 향수 타입은?",
+      "image": "/images/simple02.jpg",
       "choices": ["오드퍼퓸(EDP)", "퍼퓸(Parfum)", "오드코롱(EDC)", "바디미스트"],
       "correct": 2
     },
@@ -24,6 +26,7 @@
       "id": 3,
       "category": "향수 기본 지식",
       "question": "Q3. ‘탑 노트’의 특징은?",
+      "image": "/images/mood03.jpg",
       "choices": ["오래 남는 잔향", "첫 인상에서 가장 먼저 느껴지는 향", "중간에서 발현되는 향", "향이 거의 느껴지지 않음"],
       "correct": 2
     },
@@ -31,6 +34,7 @@
       "id": 4,
       "category": "향수 기본 지식",
       "question": "Q4. 향수 보관 시 가장 적절한 장소는?",
+      "image": "/images/mood04.jpg",
       "choices": ["직사광선 아래", "창가에 두기", "욕실 선반", "서늘하고 어두운 곳"],
       "correct": 4
     },
@@ -38,6 +42,7 @@
       "id": 5,
       "category": "향수 기본 지식",
       "question": "Q5. 향의 확산력(발향)을 높이는 데 도움이 되는 요인은?",
+      "image": "/images/mood05.jpg",
       "choices": ["두꺼운 옷", "차가운 체온", "습도 높은 환경", "체온"],
       "correct": 4
     },
@@ -46,6 +51,7 @@
       "id": 6,
       "category": "향 조합 & 계열 이해",
       "question": "Q1. 우디(Woody) 계열의 대표적인 노트는?",
+      "image": "/images/wood01.jpg",
       "choices": ["레몬·라임", "라즈베리·피오니", "샌달우드·시더우드", "바닐라·코코넛"],
       "correct": 3
     },
@@ -53,6 +59,7 @@
       "id": 7,
       "category": "향 조합 & 계열 이해",
       "question": "Q2. 시트러스 계열 향이 주는 느낌은?",
+      "image": "/images/flower04.jpg",
       "choices": ["묵직하고 스모키함", "달콤하고 무거움", "상큼하고 프레시함", "은은하고 파우더리함"],
       "correct": 3
     },
@@ -60,6 +67,7 @@
       "id": 8,
       "category": "향 조합 & 계열 이해",
       "question": "Q3. 머스크 향이 주는 분위기에 가장 가까운 설명은?",
+      "image": "/images/wood04.jpg",
       "choices": ["포근하고 중성적인 느낌", "강렬한 스파이시함", "달달한 구르망", "매우 쿨한 메탈릭 향"],
       "correct": 1
     },
@@ -67,6 +75,7 @@
       "id": 9,
       "category": "향 조합 & 계열 이해",
       "question": "Q4. 아로마틱(Aromatic) 계열의 대표 향은?",
+      "image": "/images/mood01.jpg",
       "choices": ["라벤더", "코코넛", "사과", "바질"],
       "correct": 1
     },
@@ -74,6 +83,7 @@
       "id": 10,
       "category": "향 조합 & 계열 이해",
       "question": "Q5. 플로럴(Floral) 계열 향의 대표 조합은?",
+      "image": "/images/flower01.jpg",
       "choices": ["페퍼·스파이스", "자스민·로즈", "민트·바질", "머스크·앰버"],
       "correct": 2
     },
@@ -82,6 +92,7 @@
       "id": 11,
       "category": "향수 브랜드 & 시그니처 라인",
       "question": "Q1. 조말론 ‘우드 세이지 & 씨솔트’의 분위기는?",
+      "image": "/images/wood02.jpg",
       "choices": ["정제된 플로럴", "짙은 오리엔탈", "청량하고 자연적인 느낌", "달콤한 과일 향"],
       "correct": 3
     },
@@ -89,6 +100,7 @@
       "id": 12,
       "category": "향수 브랜드 & 시그니처 라인",
       "question": "Q2. 르라보(Le Labo)의 시그니처 향 ‘Santal 33’ 계열은?",
+      "image": "/images/flower06.jpg",
       "choices": ["파우더·머스크", "우디·스파이시", "프루티·스위트", "시트러스·아쿠아"],
       "correct": 2
     },
@@ -96,6 +108,7 @@
       "id": 13,
       "category": "향수 브랜드 & 시그니처 라인",
       "question": "Q3. 바이레도(Byredo) ‘블랑쉬(Blanche)’의 주요 느낌은?",
+      "image": "/images/simple01.jpg",
       "choices": ["진한 우디", "스파이시한 향", "깨끗하고 비누 같은 향", "강한 시나몬"],
       "correct": 3
     },
@@ -103,6 +116,7 @@
       "id": 14,
       "category": "향수 브랜드 & 시그니처 라인",
       "question": "Q4. 샤넬 No.5의 대표 특징은?",
+      "image": "/images/wood05.jpg",
       "choices": ["부드러운 파우더 플로럴", "상큼한 시트러스", "민트 기반의 향", "짙은 스파이시 향"],
       "correct": 1
     },
@@ -110,6 +124,7 @@
       "id": 15,
       "category": "향수 브랜드 & 시그니처 라인",
       "question": "Q5. 딥디크(Diptyque)의 유명한 플로럴 계열 향은?",
+      "image": "/images/mood02.jpg",
       "choices": ["블랙 오피움", "아쿠아 디 지오", "도손(Do Son)", "우드세이지"],
       "correct": 3
     },
@@ -118,6 +133,7 @@
       "id": 16,
       "category": "향수 사용 & 상황별 매칭",
       "question": "Q1. 여름에 가장 적합한 향 계열은?",
+      "image": "/images/water01.jpg",
       "choices": ["바닐라·구르망", "머스크·파우더리", "스파이시·오리엔탈", "시트러스·아쿠아"],
       "correct": 4
     },
@@ -125,6 +141,7 @@
       "id": 17,
       "category": "향수 사용 & 상황별 매칭",
       "question": "Q2. 겨울에 어울리는 향 계열은?",
+      "image": "/images/wood07.jpg",
       "choices": ["그린 계열", "아쿠아·시트러스", "따뜻한 우디·스파이시", "민트·허브"],
       "correct": 3
     },
@@ -132,6 +149,7 @@
       "id": 18,
       "category": "향수 사용 & 상황별 매칭",
       "question": "Q3. 출근용 데일리 향으로 가장 적합한 것은?",
+      "image": "/images/flower03.jpg",
       "choices": ["강렬한 시나몬", "부드러운 머스크", "매우 달콤한 구르망", "스파이시·오리엔탈"],
       "correct": 2
     },
@@ -139,6 +157,7 @@
       "id": 19,
       "category": "향수 사용 & 상황별 매칭",
       "question": "Q4. 향수 레이어링 시 올바른 순서는?",
+      "image": "/images/simple03.jpg",
       "choices": ["가벼운 향 → 무거운 향", "무거운 향 → 가벼운 향", "향수끼리 직접 섞기", "로션 없이 바로 뿌리기"],
       "correct": 1
     },
@@ -146,6 +165,7 @@
       "id": 20,
       "category": "향수 사용 & 상황별 매칭",
       "question": "Q5. 향이 오래 남기 위해 분사하기 좋은 부위는?",
+      "image": "/images/wood06.jpg",
       "choices": ["손바닥", "머리카락 끝", "맥박 부위", "발목"],
       "correct": 3
     }
