@@ -20,7 +20,7 @@ const QuizPage = ({ quizes, onFinish, onScore, score }) => {
             <div className="quiz-inner">
                 <img
                     className="quiz-image"
-                    src={quizes[current].image}
+                    src={`${process.env.PUBLIC_URL}${quizes[current].image}`}
                     alt=""
                 />
 

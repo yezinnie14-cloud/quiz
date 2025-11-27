@@ -3,7 +3,12 @@ import "./Categories.css";
 const Categories = ({ categories, onSelect }) => {
   return (
     <div id="categories">
-      <img src="/images/perfumeimage.png" alt="향수 사진" />
+      
+      {/* <img src="/images/perfumeimage.png" alt="향수 사진" /> */}
+      <img
+  src={process.env.PUBLIC_URL + "/images/perfumeimage.png"}
+  alt="향수 사진"
+/>
 
       <h2 className="scent-level">
         <span className="left">나의 향 감각은</span>

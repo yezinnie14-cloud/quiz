@@ -8,7 +8,7 @@ ol,ul{list-style: none;}
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(/public/images/backimg.jpg); */
+    background-image: url(/public/images/backimg.jpg);
     background-color: #222;
     background-size: cover;
 }
