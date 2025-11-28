@@ -30,12 +30,12 @@ const QuizPage = ({ quizes, onFinish, onScore, score }) => {
                     {
                         quizes[current].choices.map((item, idx) => {
                             return (
-                                <li key={idx} onClick={() => { handleClick(idx) }}>{idx + 1}.{item}</li>
+                                <li key={idx} onClick={() => { handleClick(idx) }}>{idx + 1}. {item}</li>
                             )
                         })
                     }
                 </ul>
-                <p>현재 점수 : {score}</p>
+                {/* <p>현재 점수 : {score}</p> */}
                 <p>({current + 1}/{quizes.length})</p>
             </div>
         </div>
