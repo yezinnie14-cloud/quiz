@@ -47,8 +47,6 @@ ul {
     border: 1.5px solid #6C4B34;
     padding: 10px;
     border-radius: 25px;
-    ;
-
     animation: fadeUp 0.7s ease-out;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 
@@ -59,7 +57,6 @@ ul {
     background-color: #D2C4B4;
     padding: 10px;
     border-radius: 25px;
-
     transform: translateY(0) scale(1.02);
     box-shadow: 0 22px 50px rgba(0, 0, 0, 0.26);
     border-color: rgba(140, 112, 90, 0.2);
@@ -71,10 +68,8 @@ ul {
     border: none !important;
     box-shadow: none !important;
     backdrop-filter: none !important;
-
     padding: 0 !important;
     margin: 0 !important;
-
     width: 100% !important;
     max-width: none !important;
     border-radius: 0 !important;
