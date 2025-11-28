@@ -1,71 +1,79 @@
 @charset "utf-8";
-#categories{
+
+#categories {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-    #categories img{
-        width: 250px;
-        position: absolute; 
-        top: -30px;
-        right: 80px;
-        transform: translateY(-10px);
-    } 
-    #categories .scent-level{
-        width: 140px;
-        font-size: 18px;
-        position: absolute;
-        top: 80px;
-        left: 125px; 
-        color: #1a1a1a;
-    }
-    #categories .scent-level .left{
-        text-align: left;
-    }
 
-    #categories .scent-level .right{
-        display: block;
-        text-align: right;
-        margin-top: 2px;
-    }
-    #categories ul{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        top: 175px;
-        left: 40px;
-        
-     }
-     #categories >ul >li{
-            cursor: pointer;
-            margin: 0.8rem -10%;
-            width: 100%;
-            background-color: #E7DCD0;
-            display: flex;
-            align-items: center;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 5px;
+#categories img {
+    width: 250px;
+    position: absolute;
+    top: -30px;
+    right: 80px;
+    transform: translateY(-10px);
+}
 
-            letter-spacing: 0.01em;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
-    }
-    #categories > button{
-        position: absolute;
-        bottom: -455px;
-        width: 175px;
-        height: 40px;
-        background-color: #6C4B34;
-        color: #fff;
-        border-radius: 0.5rem;
-    }
-    .categories>button:hover {
-  transform: translateY(-3px);
-  background: #f3e6d8;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+#categories .scent-level {
+    width: 140px;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 125px;
+    color: #1a1a1a;
+}
+
+#categories .scent-level .left {
+    text-align: left;
+}
+
+#categories .scent-level .right {
+    display: block;
+    text-align: right;
+    margin-top: 2px;
+}
+
+#categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+
+}
+
+#categories>ul>li {
+    cursor: pointer;
+    margin: 0.8rem -10%;
+    width: 100%;
+    background-color: #E7DCD0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+    letter-spacing: 0.01em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+}
+
+#categories>button {
+    position: absolute;
+    bottom: -455px;
+    width: 175px;
+    height: 40px;
+    background-color: #6C4B34;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.categories>button:hover {
+    transform: translateY(-3px);
+    background: #f3e6d8;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
 }
