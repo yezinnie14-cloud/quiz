@@ -4,7 +4,6 @@ const Categories = ({ categories, onSelect }) => {
   return (
     <div id="categories">
       
-      {/* <img src="/images/perfumeimage.png" alt="향수 사진" /> */}
       <img
   src={process.env.PUBLIC_URL + "/images/perfumeimage.png"}
   alt="향수 사진"

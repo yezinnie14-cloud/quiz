@@ -35,7 +35,6 @@ const QuizPage = ({ quizes, onFinish, onScore, score }) => {
                         })
                     }
                 </ul>
-                {/* <p>현재 점수 : {score}</p> */}
                 <p>({current + 1}/{quizes.length})</p>
             </div>
         </div>
